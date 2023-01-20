@@ -8,18 +8,37 @@
     color: #ffffff;
     cursor: pointer;
     /* font-family: consolas,monospace; */
-
+    
+}
+.timerBtn:hover{
+    width: 80px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 12px;
+    background-color: #fff;
+    /* font-weight: 600; */
+    color: #2874fb;
+    cursor: pointer;
+    /* font-family: consolas,monospace; */
 }
 #timerDisplay{
     font-size: 75px;
     color: #2874fb;
     /* font-family: consolas,monospace; */
-
+    
 }
 #timerContainer{
     text-align: center;
     border: 3px solid;
     border-radius: 25px;
     background-color:#fca503 ;
-    padding: 20;
+    height: 140px;
+    width: 50% ;
+    
+}
+#mainDiv{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+
 }
