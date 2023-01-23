@@ -32,8 +32,9 @@
     border: 3px solid;
     border-radius: 25px;
     background-color:#fca503 ;
-    height: 140px;
-    width: 50% ;
+    /* height: 140px; */
+    min-height: 200px;
+    width: 100% ;
     
 }
 #mainDiv{
@@ -42,3 +43,49 @@
     flex-flow: column;
 
 }
+@media screen and (max-width: 300px) {
+    #timerContainer{
+        /* text-align: center;
+        border: 3px solid;
+        border-radius: 25px; */
+        /* background-color:red ; */
+       
+        /* height: 140px; */
+        /* min-height: 200px;
+        width: 100% ; */
+        
+    }
+    .timerBtn{
+        width: 40px;
+        height: 20px;
+        font-size: 10px;
+        border: 1px solid;
+        border-radius: 2px;
+        background-color: #2874fb;
+        /* font-weight: 600; */
+        color: #ffffff;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        /* font-family: consolas,monospace; */
+        
+    }
+    #timerDisplay{
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        color: #2874fb;
+        /* font-family: consolas,monospace; */
+        
+    }
+    #startBtn{
+        margin-bottom: 10px;
+    }
+    #pauseBtn{
+        margin-bottom: 10px;
+    }
+    
+
+  }
